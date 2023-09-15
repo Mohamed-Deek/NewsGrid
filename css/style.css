@@ -144,6 +144,16 @@ h1,h2,h3,h4,h5,h6{
     color: var(--primary-color) !important;
 }
 
+/* ^ inner page grid container */
+.page-container{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+}
+
+.page-container > * :first-child {
+    grid-row: 1 span / 3;
+}
+
 /* ^Navigation  section*/
 #main-navbar{
     background-color: #ffffff;
