@@ -148,17 +148,17 @@ h1,h2,h3,h4,h5,h6{
     color: var(--primary-color) !important;
 }
 
-/* ^ inner page grid container */
-.page-container{
+/* Inner page grid container */
+.page-container {
     display: grid;
     grid-template-columns: 5fr 2fr;
     margin: 2rem 0;
-    grid-gap: 1rem;
-}
-
-.page-container > * :first-child {
-    grid-row: 1 span / 3;
-}
+    grid-gap: 1.5rem;
+  }
+  
+  .page-container > *:first-child {
+    grid-row: 1 / span 3;
+  }
 
 /* ^Navigation  section*/
 #main-navbar{
