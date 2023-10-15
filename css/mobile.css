@@ -1,0 +1,19 @@
+/* Navigation */
+
+#main-navbar .social{
+    display: none;
+}
+
+#main-navbar .container{
+    grid-template-columns: 1fr;
+    grid-gap: 1.2rem;
+}
+
+#main-navbar ul,
+#main-navbar .logo{
+    justify-self: center;
+}
+
+#main-navbar ul li a{
+    padding: 0.5rem;
+}
